@@ -6,10 +6,10 @@ import lombok.Data;
 
 @Data
 public class CarService {
-    private  CarReository CarReository;
+    private  CarReository carReository=new CarReository();
 
     public void addCar(Car car){
-        CarReository.addCar(car);
+        carReository.addCar(car);
 
     }
 
