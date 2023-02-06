@@ -5,7 +5,6 @@ import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Data
 
@@ -17,7 +16,7 @@ public class CarReository {
    }
 
 
-    public void add(Car car) {
+    public void addCar(Car car) {
         Cars.add(car);
     }
 }
